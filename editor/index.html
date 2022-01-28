@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Editor</title>
+  <style>
+    .line-number {
+      float: left;
+      width: 5%;
+    }
+
+    .column {
+      float: left;
+      width: 95%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="main.js" defer></script>
+  <div id="editor_area" style="border: 2px solid black; width: 200px; height: 200px;">
+
+  </div>
+</body>
+
+</html>
